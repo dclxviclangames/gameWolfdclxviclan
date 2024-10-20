@@ -116,6 +116,7 @@ window.addEventListener('load', function(){
 			} 
 			else {
 				this.speed = 0;
+				this.vy += 10;
 			}
 			//horizontal movement 
 			this.x += this.speed;
